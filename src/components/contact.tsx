@@ -21,8 +21,8 @@ const contact = () => {
       </div>
 
     <div className='bg-white/10 p-6 rounded-xl max-w-[550px]'>
-        <h2 className='text-5xl font-bold text-orange-400'>Let's Connect</h2>
-        <p className='text-white/70 mb-6'>Send me a message and Let's schedule a call.</p>
+        <h2 className='text-5xl font-bold text-orange-400'>Lets Connect</h2>
+        <p className='text-white/70 mb-6'>Send me a message and Lets schedule a call.</p>
 
         <form method='POST' action="https://getform.io/f/bmdpwmda" className='space-y-4'>
             <div className='grid md:grid-cols-2 gap-4'>
