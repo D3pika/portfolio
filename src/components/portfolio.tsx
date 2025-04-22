@@ -35,7 +35,7 @@ const projects = [
 
 const portfolio = () => {
     return (
-      <div className="text-white bg-gradient-to-b from-black to-[#381A5F] py-18 mt-40" id='projects'>
+      <div className="text-white bg-gradient-to-b from-black to-[#381A5F] py-18 mt-40 pb-40" id='projects'>
           <div className="max-w-[1200px] mx-auto space-y-24 px-4 md:px-0"> {/* added padding for mobile devices */}
           <h1 className='text-white text-6xl max-w-[320px] mx-auto font-semibold p-4 mb-4 text-center md:text-left'> {/* added text-center for mobile devices */}
               Selected <span className='text-[#D2B5A4]'>Projects</span>

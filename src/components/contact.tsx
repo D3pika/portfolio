@@ -6,21 +6,9 @@ import mail from "../assets/mail.png"
 
 const contact = () => {
   return (
-    <div className='max-w-[1000px] mx-auto flex flex-col lg:flex-row text-white/70 p-8 rounded-lg space-y-8 lg:space-y-0 lg:space-x-8' id='contact'>
-      <div className='flex justify-center items-center'>
-        <ul className='space-y-4'>
-            <li className='flex items-center'>
-                <Image src={phone} alt='phone' className='h-[110px] w-auto mr-6'/>
-                <p className='text-xl'>123-456-7890</p>
-            </li>
-            <li className='flex items-center'>
-                <Image src={mail} alt='mail' className='h-[110px] w-auto mr-6'/>
-                <p className='text-xl'>dipikavevo@gmail.com</p>
-            </li>
-        </ul>
-      </div>
+    <div className='bg-gradient-to-b from-[#381A5F] to-black py-18 w-full mx-auto flex flex-col lg:flex-row text-white/70 p-8 rounded-lg space-y-8 lg:space-y-0 lg:space-x-8 pt-20' id='contact'>
 
-    <div className='bg-white/10 p-6 rounded-xl max-w-[550px]'>
+    <div className='bg-white/10 p-6 rounded-xl w-[60%] items-center mx-auto'>
         <h2 className='text-5xl font-bold text-orange-400'>Lets Connect</h2>
         <p className='text-white/70 mb-6'>Send me a message and Lets schedule a call.</p>
 

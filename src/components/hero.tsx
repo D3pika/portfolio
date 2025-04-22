@@ -43,10 +43,10 @@ const hero = () => {
                     draggable="false"
                     />
             </motion.div>
-        
+{/*         
         <p className="text-center text-xl max-w-[500px] mx-auto mt-8 text-white/80">
             I am a full-stack developer focused on creating website that provide meaningful solutions.
-        </p>
+        </p> */}
             <br />
         <Image 
             src={profilepic}

@@ -7,7 +7,10 @@ import { trace } from "console";
 
 const navLinks = [
     { title: "About", path: "#about" },
+    { title: "Skills", path: "#skills" },
     { title: "Projects", path: "#projects" },
+    { title: "Certification", path: "#certificates" },
+    { title: "Experience", path: "#experience" },
 ];
 
 const Navbar = () => {
@@ -39,9 +42,9 @@ const Navbar = () => {
     }
 
     return (
-        <div className="text-white/70 pt-6">
-            <div className="hidden md:flex item-center px-4 py-2 mx-auto max-w-[450px]">
-                <ul className="flex flex-row p-4 space-x-20">
+        <div className="text-white/70 pt-6 w-full mx-auto flex flex-col items-center justify-center">
+            <div className="hidden md:flex item-center px-4 py-2 ">
+                <ul className="flex flex-row p-4 space-x-20 font-bold">
                     {navLinks.map((link, index) => (
                         <li key={index}>
                             <Link href={link.path}>
