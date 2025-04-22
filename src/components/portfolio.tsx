@@ -3,7 +3,7 @@ import React from 'react';
 import {motion} from 'framer-motion';
 import Project from "../assets/project.png"
 import Project1 from "../assets/project1.png"
-import Project2 from "../assets/project2.png"
+import image from "../assets/image.png"
 import Image from 'next/image';
 
 const projects = [
@@ -24,18 +24,18 @@ const projects = [
         src: Project1
     },
     {
-        title: "Portfolio Website",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptate delectus ducimus architecto adipisci distinctio ipsam accusantium temporibus nostrum alias!",
+        title: "Foodie Maharaja",
+        desc: "Foodie Maharaja is a digital-first food content brand celebrating India’s rich culinary heritage through engaging reels, street food explorations, and restaurant reviews. With a royal twist on storytelling and trend-driven visuals, we aim to connect food lovers with authentic flavors, hidden gems, and unforgettable food experiences — all served with a pinch of humor and a dash of desi swag.",
         devstack: "Next JS, React JS, Framer Motions Tailwind CSS",
-        link: "#",
-        git: "#",
-        src: Project2
+        link: "https://foodiemaharaja.vercel.app/",
+        git: "https://github.com/Negi-Deepika",
+        src: image
     },
 ];
 
 const portfolio = () => {
     return (
-      <div className="text-white bg-gradient-to-b from-black to-[#381A5F] py-18 mt-40 pb-40" id='projects'>
+      <div className="text-white bg-gradient-to-b from-black to-[#381A5F] py-18 mt-20 pb-40" id='projects'>
           <div className="max-w-[1200px] mx-auto space-y-24 px-4 md:px-0"> {/* added padding for mobile devices */}
           <h1 className='text-white text-6xl max-w-[320px] mx-auto font-semibold p-4 mb-4 text-center md:text-left'> {/* added text-center for mobile devices */}
               Selected <span className='text-[#D2B5A4]'>Projects</span>

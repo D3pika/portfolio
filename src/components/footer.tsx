@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLinkedinIn } from 'react-icons/fa';
+import { FaLinkedinIn, FaGithub, FaMailBulk } from 'react-icons/fa';
 
 const footer = () => {
   return (
@@ -8,6 +8,12 @@ const footer = () => {
         <div className='flex space-x-5 mt-4'>
             <a className="hover:text-gray-300" href='https://www.linkedin.com/in/deepikanegi123/' target="_blank">
                 <FaLinkedinIn size={24}/>
+            </a>
+            <a className="hover:text-gray-300" href='https://github.com/D3pika' target="_blank">
+                <FaGithub size={24}/>
+            </a>
+            <a className="hover:text-gray-300" href='emailto:deepikanegi2309@gmail.com' target="_blank">
+                <FaMailBulk size={24}/>
             </a>
         </div>
 

@@ -3,14 +3,13 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { motion } from 'framer-motion';
-import { trace } from "console";
 
 const navLinks = [
     { title: "About", path: "#about" },
     { title: "Skills", path: "#skills" },
     { title: "Projects", path: "#projects" },
     { title: "Certification", path: "#certificates" },
-    { title: "Experience", path: "#experience" },
+    // { title: "Experience", path: "#experience" },
 ];
 
 const Navbar = () => {
@@ -52,7 +51,7 @@ const Navbar = () => {
                             </Link>
                         </li>
                     ))}
-                    <li>
+                    <li className="flex flex-row gap-12 items-center justify-center">
                         <a href="#contact" className="group">
                             <h1 className="text-lg font-bold text-white/70 cursor-pointer">Contact Me</h1>
                             <div className="relative">
@@ -61,6 +60,14 @@ const Navbar = () => {
                                 <div className="mt-1 absolute w-1/3 h-1 transition-all duration-300 ease-out bg-orange-600 rounded-full group-hover:w-full"></div>
                             </div>
                         </a>
+                        <a href="/General_CV.pdf" download className="group">
+                            <h1 className="text-lg font-bold text-white/70 cursor-pointer">My Resume</h1>
+                            <div className="relative">
+                                <div className="absolute w-2/3 h-1 transition-all duration-300 ease-out bg-orange-400 rounded-full group-hover:w-full"></div>
+
+                                <div className="mt-1 absolute w-1/3 h-1 transition-all duration-300 ease-out bg-orange-600 rounded-full group-hover:w-full"></div>
+                            </div>
+                        </a>    
                     </li>
                 </ul>
             </div>
